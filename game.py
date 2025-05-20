@@ -3,7 +3,7 @@ import random
 
 f = open("words.json", encoding="utf-8")
 database = json.load(f)
-choice_c = random.choice(list(words.keys()))
+choice_c = random.choice(list(database.keys()))
 tip_c = choice_c.value()
 
 
