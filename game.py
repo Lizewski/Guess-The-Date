@@ -1,5 +1,7 @@
 import json
 import random
+import sys
+from custom import printcenter
 
 def fchoice():
     with open("database.json", encoding="utf-8") as f:
@@ -7,7 +9,7 @@ def fchoice():
     choice_c = random.choice(list(database.keys()))
     listgames = database[choice_c]
     tip_c = random.choice(listgames)
-    print(f"""
+    printcenter(f"""
         Welcome to Guess The Date!
         You have 3 attempts to guess the release date of the game.
         
@@ -21,14 +23,14 @@ def start(choice_c):
         while n_choices > 0:
             guess = input("Enter your guess (YYYY):\n")
             if guess == choice_c:
-                print("\nCongratulations! The date is correct!\n")
+                printcenter("\nCongratulations! The date is correct!\n")
                 break
             else:
                 n_choices -= 1
                 if n_choices == 0:
-                    print(f"You lose! Better luck next time. The answer is {choice_c}.\n")
+                    printcenter(f"You lose! Better luck next time. The answer is {choice_c}.\n")
                     break
-                print(f"\nWrong date! Try again!\nThe chosen game was released {'after' if int(guess) < int(choice_c) else 'before'} {guess}.\nYou have {n_choices} attempts left.\n")
+                printcenter(f"\nWrong date! Try again!\nThe chosen game was released {'after' if int(guess) < int(choice_c) else 'before'} {guess}.\nYou have {n_choices} attempts left.\n")
         break
 
 
@@ -38,10 +40,10 @@ def playagain():
         if again == "Y":
             return True
         elif again == "N":
-            print("Game Over!")
+            printcenter("Game Over!")
             return False
         else: 
-            print("Incorrect! Let's try again...")
+            printcenter("Incorrect! Let's try again...")
         
 
 def main():
@@ -54,3 +56,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    sys.exit()
