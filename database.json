@@ -1,50 +1,56 @@
 {   
+    "2010" : [
+        "Red Dead Redemption", "Fallout: New Vegas", "Limbo", "Super Meat Boy", "Heavy Rain", "Alan Wake"
+    ],
+    "2011" : [
+        "Portal 2", "Dark Souls", "Terraria", "The Elder Scrolls V: Skyrim", "Battlefield 3", "Saints Row 3: The Third"
+    ],
+    "2012" : [
+        "Hotline Miami", "The Walking Dead", "Assassin's Creed III", "Dishonored", "Spec Ops: The Line", "Far Cry 3"
+    ],
+    "2013" : [
+        "The Last of Us", "Grand Theft Auto V", "Payday 2", "Assassin's Creed IV Black Flag", "Injustice: Gods Among Us", "The Wolf Among Us"
+    ],
+    "2014" : [
+        "Watch Dogs", "The Sims 4", "Far Cry 4", "South Park: The Stick of Truth", "Assassin's Creed Unity", "Goat Simulator"
+    ],
+
+    "2015" : [
+        "The Witcher 3: Wild Hunt", "Undertale", "Bloodborne", "Life is Strange", "Fallout 4", "Until Dawn"
+    ],
+
+    "2016" : [
+        "Overwatch", "Stardew Valley", "Persona 5", "Street Fighter V", "Batman: The Telltale Series", "Don't Starve Together"
+    ],
+
+    "2017" : [
+        "Little Nightmares", "Super Mario Odyssey", "Doki Doki Literature Club!", "Hollow Night", "Cuphead", "NieR Automata"
+    ],
+
+    "2018" : [
+        "Red Dead Redemption II", "Marvel's Spider-Man", "Detroit: Become Human", "A Way Out", "Gris", "Far Cry 5"
+    ],
+
+    "2019" : [
+        "Death Stranding", "Katana Zero", "Apex Legends", "Blasphemous", "Mortal Kombat 11", "Days Gone"
+    ],
+
     "2020": [
-        "The Last of Us Part II",
-        "Ghost of Tsushima",
-        "Final Fantasy VII Remake",
-        "Cyberpunk 2077",
-        "Doom Eternal",
-        "Hades"
+        "The Last of Us Part II", "Ghost of Tsushima", "Final Fantasy VII Remake", "Cyberpunk 2077", "Doom Eternal", "Hades"
     ],
     "2021": [
-        "Deathloop",
-        "It Takes Two",
-        "Guilty Gear: Strive",
-        "Marvel's Guardians of the Galaxy",
-        "Death's Door",
-        "Ratchet & Clank: Rift Apart"
+        "Deathloop", "It Takes Two", "Guilty Gear: Strive", "Marvel's Guardians of the Galaxy", "Death's Door", "Ratchet & Clank: Rift Apart"
     ],
     "2022": [
-        "God of War: Ragnarok",
-        "Elden Ring",
-        "Cult of the Lamb",
-        "Stray",
-        "Tunic",
-        "Sifu"
+        "God of War: Ragnarok", "Elden Ring", "Cult of the Lamb", "Stray", "Tunic", "Sifu"
     ],
     "2023": [
-        "Dredge",
-        "Hi-Fi Rush",
-        "Hogwarts Legacy",
-        "Bladur's Gate 3",
-        "Lies of P",
-        "Alan Wake II"
+        "Dredge", "Hi-Fi Rush", "Hogwarts Legacy", "Bladur's Gate 3", "Lies of P", "Alan Wake II"
     ],
     "2024": [
-        "Balatro",
-        "Tekken 8",
-        "Astro Bot",
-        "Black Myth Whukong",
-        "Like a Dragon: Infinite Wealth",
-        "Ufo 50"
+        "Balatro", "Tekken 8", "Astro Bot", "Black Myth Whukong", "Like a Dragon: Infinite Wealth", "Ufo 50"
     ],
     "2025":[
-        "South in Midnight",
-        "Assassins Creed: Shadows",
-        "Rift of the Necrodancer",
-        "Hollow Knight: Silksong",
-        "Avowed",
-        "Split Fiction"
+        "South in Midnight", "Assassins Creed: Shadows", "Rift of the Necrodancer", "Hollow Knight: Silksong", "Avowed", "Split Fiction"
     ]
 }
